@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     func setupButton(){
         clickBtn.layer.cornerRadius = 10
         clickBtn.layer.masksToBounds = true
+        //999
     }
     
     func calculateBMI(weight: Double, height: Double) -> Double {
